@@ -1,7 +1,7 @@
 # Freshdesk Service Provider for Laravel 5
 
 [![Build Status](https://travis-ci.org/mpclarkson/freshdesk-laravel.svg?branch=master)](https://travis-ci.org/mpclarkson/freshdesk-laravel)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mpclarkson/freshdesk-laravel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mpclarkson/freshdesk-laravel?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mpclarkson/freshdesk-laravel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mpclarkson/freshdesk-laravel/?branch=master)
 
 This is a service provider for interacting with the Freshdesk API v2 via the 
 [freshdesk-php-sdk](https://github.com/mpclarkson/freshdesk-php-sdk) in Laravel and Lumen applications.
