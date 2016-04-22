@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/mpclarkson/freshdesk-laravel.svg?branch=master)](https://travis-ci.org/mpclarkson/freshdesk-laravel)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mpclarkson/freshdesk-laravel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mpclarkson/freshdesk-laravel/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/9bc7be97-3ed1-4895-944e-05658edd7a4f/mini.png)](https://insight.sensiolabs.com/projects/9bc7be97-3ed1-4895-944e-05658edd7a4f)
-[![Packagist](https://img.shields.io/packagist/v/mpclarkson/freshdesk-php-sdk.svg)(https://packagist.org/packages/mpclarkson/freshdesk-php-sdk)]
+[![Packagist](https://img.shields.io/packagist/v/mpclarkson/freshdesk-laravel.svg)](https://packagist.org/packages/mpclarkson/freshdesk-laravel)
 
 This is a service provider for interacting with the Freshdesk API v2 via the 
 [freshdesk-php-sdk](https://github.com/mpclarkson/freshdesk-php-sdk) in Laravel and Lumen applications.
