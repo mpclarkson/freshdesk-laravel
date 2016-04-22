@@ -2,6 +2,7 @@
     "name": "mpclarkson/freshdesk-laravel",
     "description": "Laravel package for the Freshdesk API (v2)",
     "homepage": "https://github.com/mpclarkson/freshdesk-laravel",
+    "keywords": ["freshdesk", "customer service", "support", "help desk", "api", "laravel"],
     "type": "laravel-package",
     "require": {
         "mpclarkson/freshdesk-php-sdk": "0.2.*",

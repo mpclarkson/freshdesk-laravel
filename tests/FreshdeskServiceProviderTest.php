@@ -42,8 +42,6 @@ abstract class FreshdeskServiceProviderTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('Freshdesk\Resources\SLAPolicy', Freshdesk::SLAPolicies());
     }
 
-
-
     /**
      * @return Container
      */
