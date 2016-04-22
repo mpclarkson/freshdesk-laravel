@@ -19,11 +19,12 @@ class Api {
 
     /**
      * Api constructor.
-     * @param Freshdesk $api
+     * @param $key
+     * @param $domain
      */
-    public function __construct(Freshdesk $api)
+    public function __construct($key, $domain)
     {
-        $this->api = $api;
+        $this->api = new Freshdesk($key, $domain);
     }
 
     /**
