@@ -5,7 +5,7 @@
     "keywords": ["freshdesk", "customer service", "support", "help desk", "api", "laravel"],
     "type": "laravel-package",
     "require": {
-        "mpclarkson/freshdesk-php-sdk": "0.2.*",
+        "mpclarkson/freshdesk-php-sdk": "0.3.*",
         "illuminate/support": "~5.1"
     },
     "require-dev": {
