@@ -36,7 +36,7 @@ class FreshdeskServiceProvider extends ServiceProvider
             $config = $app->make('config')->get('freshdesk');
             return new Api($config['api_key'], $config['domain']);
         });
-        $this->app->alias('freshdesk', '\Mpclarkson\Laravel\Freshdesk\Api');
+        $this->app->alias('freshdesk', Api::class);
     }
 
     /**
@@ -46,6 +46,6 @@ class FreshdeskServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['freshdesk', '\Mpclarkson\Laravel\Freshdesk\Api'];
+        return ['freshdesk', Api::class];
     }
 }
