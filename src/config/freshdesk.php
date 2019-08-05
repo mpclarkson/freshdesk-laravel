@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'api_key' => 'your_freshdesk_api_key',
-    'domain' => 'your_freshdesk_domain'
+    'api_key' => env('FRESHDESK_KEY'),
+    'domain' => env('FRESHDESK_DOMAIN')
 ];
