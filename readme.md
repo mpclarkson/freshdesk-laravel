@@ -50,22 +50,23 @@ Then add the Freshdesk facade alias in the `aliases` key in your `config/app.php
 
 ## Configuration
 
-
 To customize the configuration file, publish the package configuration using Artisan.
 
 ```sh
-php artisan vendor:publish
+php artisan vendor:publish --provider="Mpclarkson\Laravel\Freshdesk\FreshdeskServiceProvider"
 ```
 
-Update the settings in the `app/config/freshdesk.php` file.
+Set your configuration using **environment variables**, either in your `.env` file or on your server's control panel:
 
-```php
-return [
-    'api_key' => 'your_freshdesk_api_key',
-    'domain' => 'your_freshdesk_domain',
-];
-```
+- `FRESHDESK_KEY`
 
+Read this article to find your API key: `https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key`
+
+- `FRESHDESK_DOMAIN`
+
+The subdomain part of your Freshdesk organisation URL.
+
+e.g. http://mpclarkson.freshdesk.com use **mpclarkson**
 
 ## Accessing the Freshdesk API
 
@@ -150,3 +151,4 @@ from [Hilenium](https://hilenium.com).
 
 * [Freshdesk PHP SDK](https://github.com/mpclarkson/freshdesk-php-sdk)
 * [Freshdesk API Documentation](https://developer.freshdesk.com/api/)
+* [Freshdesk PHP Samples](https://github.com/freshdesk/fresh-samples/tree/master/PHP)
